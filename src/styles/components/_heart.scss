@@ -14,7 +14,8 @@
       align-self: center;
     }
     .fa-regular {
-      color: $darkred;
+      color: $linearBlue;
+      background: transparent;
       opacity: 1;
       transition: 0.3s ease-in;
     }
@@ -22,11 +23,11 @@
       opacity: 0;
     }
     .fa-solid {
-      color: transparent;
-      background-image: $linearBlue;
+      color: rgba(255,36,78, .9);
+      background-color: transparent;
       background-clip: text;
       opacity: 0;
-      transition: 0.3s ease-in;
+      transition: 0.3s ease-in-out;
     }
     &:hover .fa-solid, &:visited .fa-solid {
       opacity: 1;
